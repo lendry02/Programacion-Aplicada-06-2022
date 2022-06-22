@@ -1,14 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class IntanceSphere : MonoBehaviour
 {
-    public GameObject sphereRed, sphereBlue, sphereyellow;
-    float _lastTime = 0, _nextTime;
+    public GameObject sphereRed, sphereBlue, sphereyellow, cubeRed, cubeBlue, cubeyellow, vida,acelerar;
+    float  _nextTime;
 
     Vector3 staringPosition = new Vector3(-12.5f, 4.3f);
     const float MIN_TIME = 0.9f, MAX_TIME = 2.5f, MIN_Y = -4.10f, MAX_Y = 4.10f;
+
 
     void Start()
     {
@@ -33,12 +32,19 @@ public class IntanceSphere : MonoBehaviour
 
     GameObject CubeRandom()
     {
-        switch (Random.Range(0, 5))
+        switch (Random.Range(0, 8))
         {
             case 0: return sphereRed;
             case 1: return sphereBlue;
             case 2: return sphereyellow;
+            case 3: return cubeRed;
+            case 4: return cubeBlue;
+            case 5: return cubeyellow;
+            case 6: return vida;
+            case 7: return acelerar;
             default: return sphereBlue;
         }
     }
+
+
 }

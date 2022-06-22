@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7439876568420152940}
   - component: {fileID: 734384504290873011}
   m_Layer: 0
-  m_Name: SphereYellow
-  m_TagString: ENEMIGO
+  m_Name: Acelerar
+  m_TagString: ACELERAR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 70e1aebbd4e0bf5409ede25e3c9ce47e, type: 2}
+  - {fileID: 2100000, guid: c628491bd9eb9494297f4d79b7e5796d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

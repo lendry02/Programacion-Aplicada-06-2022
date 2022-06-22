@@ -3,11 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ENEMIGO
-  - CUBE
-  - VIDA
-  - ACELERAR
+  tags: []
   layers:
   - Default
   - TransparentFX
